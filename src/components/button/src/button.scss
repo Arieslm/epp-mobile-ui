@@ -1,0 +1,39 @@
+@import "@/assets/css/variable.scss";
+.#{$css-prefix} {
+    &-button {
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #ffffff;
+        background: #867ae4;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.10);
+        border: 0.01rem solid #dddddd;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 4px;
+        width: 7.5rem;
+        height: .98rem;
+    }
+    &-button-large {
+        width: 6rem;
+        height: .88rem;
+    }
+    &-button-normal {
+        width: 2.4rem;
+        height: .7rem;
+    }
+    &-button-small {
+        width: 1.6rem;
+        height: .5rem;
+    }
+    &-button-bottom {
+        position: fixed;
+        bottom: 0;
+    }
+    &-button-is-disabled {
+
+    }
+    &-button-is-disabled {
+        background: #CCCCCC;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.10);
+    }
+}

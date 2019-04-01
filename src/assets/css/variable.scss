@@ -1,0 +1,17 @@
+/*
+scss基本配置
+*/
+$css-prefix: epp;
+
+.epp-fix-ios-overflow-scrolling-bug {
+    /* 针对IOS 修复 css overflow scroll bug */
+    -webkit-overflow-scrolling: auto !important;
+}
+$dome-content-bgcolor: #f8f8f8;
+
+.demo-box {
+    margin-bottom: 25px;
+}
+html {
+    touch-action: none
+}

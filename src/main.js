@@ -1,12 +1,15 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import Vue from 'vue'                            //vue
+import App from './App.vue'                      //main
+import router from './routes/index'                    //所有routes
 
-Vue.config.productionTip = false
+import './assets/css/normalize.css'  // normalize重置浏览器样式
+
+import demo from '../src/static/common.js'
+Vue.use(demo)
+
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+	router,
+	el: "#app",
+	render: h => h(App)
+})
